@@ -133,6 +133,7 @@ img {
   #why .row>.second,
   #why .row>.third {
   margin-top: 20px;
+  width: calc(100% - 40px);
   }
 
   h1, h3{
