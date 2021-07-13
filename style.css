@@ -108,9 +108,8 @@ img {
 
   #steps .row>.right {
     width: 70%;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 0);
+    float: none;
+    margin: 15%;
   }
 
   img{
@@ -118,12 +117,10 @@ img {
     width: 30%;
   }
 
-  #lezioni img{
-    height: 100px;
+  #lezioni img, #steps img{
+    height: 150px;
     width: auto;
   }
-
-
 
   #why .row > div:not(:last-child) hr{
     margin-top: 20px;
