@@ -108,7 +108,6 @@ img {
 
   #steps .row>.right {
     width: 70%;
-    float: none;
     margin: 15%;
   }
 
@@ -129,8 +128,8 @@ img {
   #why .row>.first,
   #why .row>.second,
   #why .row>.third {
-  margin-top: 20px;
-  width: calc(100% - 40px);
+    margin-top: 20px;
+    width: calc(100% - 40px);
   }
 
   h1, h3{
